@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/style.css">
+    <meta charset="UTF-8"/>
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">TP</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          TRESSA PARK – Full Stack Web Developer | Senior Graphic Designer
+        </span>
+      </div>
+    </nav>
+
+<div class="container">
+  <div id="contactme">
+    <h2><center>Contact Me</center></h2>
+    <p><center>Swing by for a cup of coffee, a glass of vino, or leave me a message:</center></p>
+  </div>
+   <div class="row">
+    <div class="column">
+        <!-- <img src="./assets/images/tressa2bw.jpg" alt="Tressa" style="width:200px;height:245px;" /> -->
+        <img src="./Assets/Images/tressa2bw.jpg" class="float-left" />
+        <!-- set margin for headshot? -->
+        <!-- I want everything below to be centered -->
+    </div>
+    <!-- <div id="questions">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">First and last name</span>
+        </div>
+        <input type="text" aria-label="First name" class="form-control">
+        <input type="text" aria-label="Last name" class="form-control">
+      </div>
+    </div> -->
+    <div class="column">
+        <!-- This looks horrible all of a sudden line up vertically -->
+      <form action="mailto:tressapark@gmail.com" method="post" enctype="text/plain">
+        <p>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+
+        </p>
+        <!-- <textarea id="subject" name="fname" placeholder="Your first name.." style="height:30px"></textarea> -->
+        <p>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your Email...">
+        </p>
+        <!-- <br><textarea id="subject" name="lname" placeholder="Your last name.." style="height:30px"></textarea></br> -->
+        <p>
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <!-- I picked my ancestry countries just for fun here -->
+          <option value="england">England</option>
+          <option value="germany">Germany</option>
+          <option value="ireland">Ireland</option>
+          <option value="scotland">Scotland</option>
+          <option value="usa">USA</option>
+        </select>
+        </p>
+
+       <p>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+
+
+       </p> 
+        <!-- Submit button goes here -->
+        <!-- I can't get the button to be dark with light text -->
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </div> 
+</div>
+
+<footer>
+  <div id="copyright">
+    Copyright &copy; 2020 Tressa Park
+  </div>
+</footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
