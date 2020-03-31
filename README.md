@@ -1,4 +1,4 @@
-# Unit 08 Homework: Professional Materials
+# 8: Updated Portfolio Page
 ​
 Updated my portfolio page and other materials to build toward being employer competitive.
 ​
